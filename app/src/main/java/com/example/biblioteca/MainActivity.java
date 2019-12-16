@@ -94,6 +94,11 @@ public class MainActivity extends AppCompatActivity {
         }
     }
 
+    public void Maps(View v) {
+        Intent i = new Intent(this, MapsActivity.class);
+        startActivity(i);
+    }
+
 
 
 
