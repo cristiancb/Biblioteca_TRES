@@ -98,6 +98,10 @@ public class MainActivity extends AppCompatActivity {
         Intent i = new Intent(this, MapsActivity.class);
         startActivity(i);
     }
+    public void Git(View v) {
+        Intent i = new Intent(this, github_act.class);
+        startActivity(i);
+    }
 
 
 

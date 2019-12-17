@@ -47,7 +47,7 @@ public class Home_act extends AppCompatActivity {
         startActivity(i);
     }
 
-    String[] dataLibros = {"Farenheit", "Revival", "Tesla"};
+    String[] dataLibros = {"Farenheith", "Revival", "Tesla", "El Alquimista"};
 
     public void Libros(View view)
     {
@@ -60,6 +60,12 @@ public class Home_act extends AppCompatActivity {
     public void Base (View view)
     {
         Intent i = new Intent(this, Base_act.class);
+        startActivity(i);
+    }
+
+    public void Seguridad (View view)
+    {
+        Intent i = new Intent(this, Sec_act.class);
         startActivity(i);
     }
 }
