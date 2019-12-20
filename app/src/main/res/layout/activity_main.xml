@@ -90,7 +90,7 @@
         android:id="@+id/imageButton6"
         android:layout_width="112dp"
         android:layout_height="93dp"
-        android:onClick="Git"
+        android:onClick="Maps"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.09"

@@ -37,7 +37,7 @@ public class Base_act extends AppCompatActivity {
 
             BIBLIOTECA.insert("LIBROS",null,registro);
             BIBLIOTECA.close();
-            Toast.makeText(this, "Producto Ingresado",Toast.LENGTH_LONG).show();
+            Toast.makeText(this, "Producto correctamete  Ingresado",Toast.LENGTH_LONG).show();
         }
 
 

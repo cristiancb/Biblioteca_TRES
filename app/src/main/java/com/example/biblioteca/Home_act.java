@@ -47,7 +47,7 @@ public class Home_act extends AppCompatActivity {
         startActivity(i);
     }
 
-    String[] dataLibros = {"Farenheith", "Revival", "Tesla", "El Alquimista"};
+    String[] dataLibros = {"PlanetaRojo", "Troya", "Espacio"};
 
     public void Libros(View view)
     {

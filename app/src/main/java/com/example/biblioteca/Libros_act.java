@@ -15,7 +15,7 @@ public class Libros_act extends AppCompatActivity {
     private Spinner spn;
     private TextView tv;
     private EditText et1, et2;
-    private String[] precios = new String[]{"5000", "12000", "25000","40500","28500","45500"};
+    private String[] precios = new String[]{"5000", "12000", "25000","40500","28500","45500","70000"};
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -43,7 +43,7 @@ public class Libros_act extends AppCompatActivity {
 
     public void Calcular(View v)
     {
-        if(spn.getSelectedItem().equals("Farenheit"))
+        if(spn.getSelectedItem().equals("PlanetaRojo"))
         {
             String precio = precios[0];
             int st = Integer.parseInt(et1.getText().toString());
@@ -55,7 +55,7 @@ public class Libros_act extends AppCompatActivity {
                     + "Precio final: "+ resultado);
         }
 
-        if(spn.getSelectedItem().equals("Revival"))
+        if(spn.getSelectedItem().equals("Troya"))
         {
             String precioRevival = precios[1];
 
@@ -69,7 +69,7 @@ public class Libros_act extends AppCompatActivity {
                     +"el precio final es: "+ resultado);
         }
 
-        if(spn.getSelectedItem().equals("Tesla"))
+        if(spn.getSelectedItem().equals("Espacio"))
         {
 
             String precioTesla = precios[2];
